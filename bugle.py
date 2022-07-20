@@ -21,7 +21,7 @@ for x in range(1,179):
 
 
     if x > 100 and x<179:    
-        url = f'http://thebugle.leekworld.com/thebugle0{x}.mp3'
+        url = f'http://thebugle.leekworld.com/thebugle{x}.mp3'
         urllib.request.urlretrieve(url, f'{path}/thebugle0{x}.mp3')
         print('downloading: ')
         print(url)
